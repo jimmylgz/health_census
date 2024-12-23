@@ -28,7 +28,7 @@ function generateReport() {
     const conditionsCount = {
         Diabetes: 0,
         Thyroid: 0,
-        "High Blood Pressure": 0, //没有连起来的词，用双引号括起来。
+        "High Blood Pressure": 0, //没有连起来的词，用双引号括起来。要检查属性名是否需要加引号，可以问自己：这个属性名是否可以作为一个合法的JavaScript变量名？如果不行，就需要加引号。
     };
     const genderConditionsCount = {
         Male: {
